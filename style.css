@@ -1,0 +1,262 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+@import url('https://fonts.googleapis.com/css?family=Oswald:500');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto');
+
+body {
+    background: linear-gradient(#dedede, #ffffff), url(#img/background.jpg);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #0b0b0b;
+    font-family: 'Roboto';
+    font-size: 15px;
+    line-height: 1.6em;
+    height: 100%;
+    padding-top: 130px;
+}
+
+#main-header {
+    background: linear-gradient(90deg, #ffffff, #ffffff, #ffffff);
+    height: 65px;
+    width: 100%;
+    left: 0;
+    top: 0;
+    margin: 0px;
+    padding: 0px;
+    position: fixed;
+    border-bottom: 1px solid #cccccc;
+    z-index: 1;
+}
+
+.site-name {
+    font-family: 'Oswald';
+    font-size: 35px;
+    font-weight: 700;
+    position: absolute;
+    top: 25%;
+    left: 7%;
+    letter-spacing: 0.3px;
+    color: #163856;
+    text-decoration: none;
+    z-index: 2;
+}
+
+.escudo {
+    position: relative;
+    right: 1px;
+    bottom: 11px;
+    width: 88px;
+    z-index: 3;
+}
+
+.micaslaasociate {
+    font-family: 'Roboto';
+    font-size: 15px;
+    color: white;
+    text-decoration: none;
+    background-color: #163856;
+    border: 1px solid #cccccc;
+    padding: 7px;
+    width: 85px;
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    transition: all 0.2s;
+}
+
+.micaslaasociate:hover {
+    background-color: #bf2029;
+    color: white;
+    font-size: 16px;
+}
+
+.micasla {
+    position: relative;
+    left: 91%;
+    bottom: 85px;
+    background-color: #bf2029;
+    z-index: 4;
+}
+
+.asociate {
+    position: relative;
+    left: 75%;
+    bottom: 85px;
+    z-index: 5;
+}
+
+#nav {
+    left: 28%;
+    top: 9.4%;
+    position: fixed;
+    z-index: 6;
+}
+
+#ul-main ul,
+ol {
+    list-style: none;
+}
+
+#ul-main li a {
+    background: #FFF;
+    color: #163856;
+    font-size: 18px;
+    font-family: 'Oswald';
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    letter-spacing: 0px;
+    padding: 10px;
+    display: block;
+    min-width: 100px;
+}
+
+#ul-main li a:hover {
+    color: #bf2029;
+}
+
+#ul-main > li {
+    float: left;
+}
+
+#ul-main li ul {
+    display: none;
+    position: relative;
+    padding: 0px;
+}
+
+#ul-main li:hover > ul {
+    display: block;
+}
+
+#ul-main li ul li {
+    position: relative;
+
+}
+
+#ul-main li ul li ul {
+    right: -120px;
+    top: -40px;
+}
+
+.medio {
+    margin: 0 auto;
+    margin-top: 10px;
+    width: 75%;
+    text-align: justify;
+    max-width: 100ch;
+}
+
+.fotoequipo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+.leetambien {
+    box-shadow: 0px 1px 2px #000000;
+    padding: 8px;
+    background: rgba(0, 0, 0, 0.2);
+}
+
+.inauguracion {
+    color: #08155d;
+    text-decoration: none;
+}
+
+.inauguracion:hover {
+    color: red;
+}
+
+.formulario {
+    font-size: 14px;
+    font-family: 'Montserrat';
+    margin: 0 auto;
+    margin-top: 50px;
+    width: 55%;
+    border: 2px solid rgba(204, 204, 204, 0.13);
+    padding: 15px;
+    background: rgba(180, 180, 180, 0.6);
+    box-shadow: 0px 0px 30px 20px rgb(180, 180, 180);
+}
+
+h3 {
+    font-size: 17px;
+    text-align: center;
+    margin: 0px 0px 20px;
+}
+
+ul {
+    list-style: none;
+    padding-top: 1%;
+    padding-left: 0%;
+    padding-right: 0%;
+    margin: 0%;
+}
+
+form li + li {
+    margin-top: 15px;
+}
+
+label {
+    text-align: right;
+    display: inline-block;
+    width: 40%;
+
+}
+
+input,
+select,
+textarea {
+    font: 1em sans-serif;
+    font-size: 13px;
+    box-sizing: border-box;
+    width: 30%;
+    height: 2em;
+    border: 1px solid #999;
+    border-bottom: 1px solid #b1b1b1;
+    background: rgb(255, 255, 255);
+    outline: none;
+    resize: vertical;
+    transition: all 0.5s;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+    border-color: rgb(8, 21, 93);
+}
+
+textarea {
+    vertical-align: top;
+    height: 5em;
+}
+
+.button {
+    padding-left: 40.5%;
+}
+
+button {
+    font-family: 'Montserrat';
+    background: 0;
+    color: #0a0a0a;
+    box-sizing: border-box;
+    width: 50.4%;
+    height: 2.1em;
+    border: 2px solid #78788c;
+    cursor: pointer;
+    transition: all .5s;
+}
+
+button:hover {
+    background: #78788c;
+    color: white;
+    border: 2px solid #78788c;
+}
