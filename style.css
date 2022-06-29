@@ -287,3 +287,66 @@ h2 {
         width: 80%;
     }
 }
+
+@media (max-width:375px) {
+    body {
+        padding-top: 30%;
+    }
+
+    #main-header {
+        height: 10%;
+    }
+
+    .site-name {
+        font-size: 1em;
+        top: 10%;
+        left: 17%;
+        display: none;
+    }
+
+    .escudo {
+        bottom: 12%;
+        width: 17%;
+        left: 3%;
+    }
+
+    .micaslaasociate {
+        font-size: 1.2em;
+        padding: 5px;
+        width: 25%;
+    }
+
+    .micaslaasociate:hover {
+        font-size: 1.3em;
+    }
+
+    .micasla {
+        left: 67%;
+        bottom: 61px;
+    }
+
+    .asociate {
+        left: 5%;
+        bottom: 61px;
+    }
+
+    #nav {
+        left: -5%;
+        top: 7.6%;
+    }
+
+    #ul-main li a {
+        font-size: 1.3em;
+        padding: 3px;
+        min-width: 58px;
+    }
+
+    .medio {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .fotoequipo {
+        width: 80%;
+    }
+}
